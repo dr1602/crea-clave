@@ -1,0 +1,28 @@
+{
+  "name": "crea-clave",
+  "version": "1.0.0",
+  "description": "Paquete de npm para crear claves aleatorias",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dr1602/rando-str-msg-dr.git"
+  },
+  "keywords": [],
+  "author": "David Rangel <david@adabyron.tech>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dr1602/crea-clave/issues"
+  },
+  "homepage": "https://github.com/dr1602/crea-clave#readme",
+  "bin": {
+    "crea-clave": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "g": "^2.0.1",
+    "user": "^0.0.0"
+  }
+}
